@@ -202,7 +202,7 @@ header h2 {
   /* ABOUT */
 
 .about {
-  background: #fbe3e8;
+  background: #fff6f5;
 }
 
 .about img {
@@ -218,7 +218,7 @@ header h2 {
 /* FOOTER */
 
 footer {
-  background: #f8cdd6;
+  background: #ffeceb;
 }
 footer h3 {
   margin-bottom: 50px;
@@ -255,8 +255,7 @@ footer i {
 }
 
 .hire,
-.follow,
-.meet {
+.follow {
   margin: 30px 0 50px;
 }
 
@@ -404,6 +403,7 @@ figure {
 
 .about .content-wrapper {
   display: flex;
+  
 }
 
 .about h3 {
@@ -422,20 +422,24 @@ figure {
 .about-text {
   width: 50%;
   text-align: left;
+  margin-left: 15px;
 }
 
 .contact {
   display: flex;
   padding-bottom: 40px;
+  justify-content: center;
+  align-items: center;
 }
 
-.hire, .follow, .meet {
-
-  width: 33.3%;
+.hire, .follow {
+  width: 40%;
+  
 }
 
 .follow {
-  padding: 0 5px;
+  /* padding-left: 10px; */
+  margin-left: 20px;
 }
  
   }
@@ -491,6 +495,8 @@ header h2 {
 
 .project {
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .work figure {
