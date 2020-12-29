@@ -24,21 +24,35 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <div class="hero">
-        <div class="wrapper">
-            <header>
-                <h1>Hi, I'm <span>Sarah Fleetwood</span>.</h1>
-                <h2>I am a front-end web developer in Dallas, Texas.</h2>
+   <div class="hero">
+        <header>
+        
+             <div class="navbar wrapper">
+                 <nav>
+                    <ul>
+                      <li><a href="#about">About</a></li>
+                      <li><a href="#portfolio">Portfolio</a></li>
+                      <li><a href="#contact">Contact</a></li>
+                    </ul>
+                  </nav>
+                </div>
             </header>
+             <div class="hero-statement">
+                  <h1><span>Sarah Fleetwood</span></h1>
+                   <h2>Front-end web developer based in Dallas, Texas.</h2>
+             </div>
+             
         </div>
-    </div>
+
 
     <main>
-        <section class="work">
+        <section class="work" id="portfolio">
            <div class="wrapper">
                 <h3>My Portfolio</h3>
                 
@@ -89,33 +103,45 @@
            </div>
         </section>
 
-        <section class="about">
+        <section class="about" id="about">
+         <!--<div class="curved-upper">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 185">
+              <path fill="#f0dcef" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,80C840,75,960,117,1080,144C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+            </svg>
+          </div>--> 
           <div class="wrapper">
+            
                <h3>About Me</h3>
             <div class="content-wrapper">
                 <figure>
                       <img src="img/sbf.png" alt="self-portrait">
                 </figure>
-                <div class="about-text">
-                  <p>During my online quest for my dream career, I came across some articles about web development and knew I had to learn more. I signed up for online classes and started my journey, and after taking a couple classes I knew this is what I wanted to do. Building websites is challenging but also fun, and it feels good to help make something. I finally feel that excitement in my work that was always missing in the past. 
-                  </p> 
+              
+                  <div class="about-text">
+                    <p>During my online quest for my dream career, I came across some articles about web development and knew I had to learn more. I signed up for online classes and started my journey, and after taking a couple classes I knew this is what I wanted to do. Building websites is challenging but also fun, and it feels good to help make something. I finally feel that excitement in my work that was always missing in the past. 
+                    </p> 
+                    
+                    <p>When I’m not working on my coding skills, I’m spending time with my husband and dog and dreaming of the mountains (I prefer snow over sun!).   
+                    </p>                
                   
-                  <span>When I’m not working on my coding skills, I’m spending time with my husband and dog and dreaming of the mountains (I prefer snow over sun!).   
-                  </span>                
                 </div>
+               
             </div>
           </div>
+         <!--<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 185">
+            <path fill="#fff" fill-opacity="1" d="M0,96L60,112C120,128,240,160,360,149.3C480,139,600,85,720,80C840,75,960,117,1080,144C1200,171,1320,181,1380,186.7L1440,192L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+          </svg>--> 
         </section>
       </main>
 
         <footer>
-            <div class="wrapper">
+            <div class="wrapper" id="contact">
                 <h3>Let's Connect</h3>
                 <div class="contact">
                 <div class="hire">
                     <h4>Contact me</h4>
                     <p>936-443-1713</p> 
-                    <a href=mailto:sarahfleetwood12@gmail.com>sarahfleetwood12@gmail.com</a>
+                    <a href=mailto:sarahfleetwood@sarahlovestocode.com>sarahfleetwood@sarahlovestocode.com</a>
                 </div>
                 <div class="follow">
                    <h4>Social</h4>
@@ -125,10 +151,7 @@
                      <li><a href="https://www.linkedin.com/in/sarah-fleetwood-8073b3b3/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
                    </ul>
                 </div>
-                <!--<div class="meet">
-                    <h4>Meet me</h4>
-                    <p>Dallas, TX <br>Let's go to meetups together!</p>
-                </div>-->
+                
                 </div>
                 <div class="copyright">
                     <span>Copyright 2020 | Sarah Fleetwood</span>
